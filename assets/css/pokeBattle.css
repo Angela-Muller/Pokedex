@@ -1,0 +1,55 @@
+*{
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão*/
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total do elemento */
+}
+
+/* Estiliza o corpo da página */
+
+body {
+    text-align: center; /* Centraliza o texto horizontalmente*/
+    background: linear-gradient( to bottom, #6ab7f5, #fff); /* Aplica um gradiente de azula (cima) para branco (baixo)*/
+    min-height: 100vh; /* Garante que o corpo tenha no mínimo a altura da janela do navegador*/
+}
+
+main {
+    position: relative;
+    padding: 15px;
+    margin: 2%;
+}
+
+.fundo {
+    width: 50%;
+}
+
+.imgPoke-inimigo {
+    position: absolute;
+    top: 25%;
+    left: 62%;
+    transform: translate(-63%, 20%);
+    height: 8rem;
+}
+
+.imgPoke-player {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-63%, 20%);
+    height: 8rem;
+}
+
+.playerHp {
+    position: absolute;
+    top: 55%;
+    left: 61%;
+    transform: translate(-63%, 20%);
+    height: 8rem;
+}
+
+.menuPlayer {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    transform: translate(-63%, 20%);
+    width: 30rem;
+}
