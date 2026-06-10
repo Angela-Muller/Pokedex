@@ -107,7 +107,7 @@ main {
 .btn-voltar {
     background: #ffca05;
     border: none;
-    padding: 1rem;
+    padding: 1rem 3rem;
     color: black;
     border-radius: 15px;
     cursor: pointer;
@@ -115,9 +115,9 @@ main {
     box-shadow:  0 7px 0 #9c8d30;
 
     position: absolute;
-    top: 4rem;
-    left: 5rem;
-    width: 8rem;
+    top: 30rem;
+    right: 5rem;
+    width: 20em;
 }
 .btn-voltar:hover{
     transition: all 0.3s ease; /* ou 0.2s */
