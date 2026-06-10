@@ -44,10 +44,10 @@ button {
      box-shadow:  0 7px 0 #9c8d30;
 }
 
-audio {
+.music {
     background-color: #ffca05;
     position: absolute;
 
     top: 25rem;
-
+    width: 20rem;
 }
