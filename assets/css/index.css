@@ -25,10 +25,6 @@ main{
     top: 5rem;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
 
 .buttons {
     position: absolute;
@@ -51,4 +47,35 @@ button {
     top: 25rem;
     width: 20rem;
     cursor: pointer;
+}
+
+.music:hover{
+    transition: all 0.3s ease; /* ou 0.2s */
+    box-shadow: rgba(255, 202, 5, 0.25) 0px 54px 55px, rgba(255, 202, 5, 0.12) 0px -12px 30px, rgba(255, 202, 5, 0.12) 0px 4px 6px, rgba(255, 202, 5, 0.17) 0px 12px 13px, rgba(255, 202, 5, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: rgba(34, 118, 190, 0.75); /* fica mais vivo no hover */
+    color: white;
+}
+
+
+.btn-entrar {
+    background: #ffca05;
+    border: none;
+    padding: 1rem 3rem;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow:  0 7px 0 #9c8d30;
+}
+.btn-entrar:hover{
+    transition: all 0.3s ease; /* ou 0.2s */
+    box-shadow: rgba(255, 202, 5, 0.25) 0px 54px 55px, rgba(255, 202, 5, 0.12) 0px -12px 30px, rgba(255, 202, 5, 0.12) 0px 4px 6px, rgba(255, 202, 5, 0.17) 0px 12px 13px, rgba(255, 202, 5, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: rgba(34, 118, 190, 0.75); /* fica mais vivo no hover */
+    color: white;
 }
