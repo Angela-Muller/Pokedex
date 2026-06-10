@@ -116,3 +116,28 @@ main {
     box-shadow: inset -4px 4px 0 #222; /* Torna o sombreamento "Inserido" ao clicar */
     font-size: 0.9rem; /* Reduz ligeiramente o tamanho da fonte*/
 }
+
+.btn-voltar {
+    background: #ffca05;
+    border: none;
+    padding: 1rem;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow:  0 7px 0 #9c8d30;
+
+    position: absolute;
+    top: 4rem;
+    left: -40rem;
+    width: 8rem;
+}
+.btn-voltar:hover{
+    transition: all 0.3s ease; 
+    box-shadow: rgba(255, 202, 5, 0.25) 0px 54px 55px, rgba(255, 202, 5, 0.12) 0px -12px 30px, rgba(255, 202, 5, 0.12) 0px 4px 6px, rgba(255, 202, 5, 0.17) 0px 12px 13px, rgba(255, 202, 5, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: rgba(34, 118, 190, 0.75); /* fica mais vivo no hover */
+    color: white;
+}

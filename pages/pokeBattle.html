@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,49 @@
     <link rel="shortcut icon" href="./assets/img/favicon-pokebola.png" type="image/x-icon">
     <title>Pokémon - Battle Simulator</title>
 </head>
+
 <body>
-
-    <header>
-
-        <audio controls autoplay loop>
-            <source src="../assets/aud/BattleMusic.mp3" type="audio/mpeg">
-        </audio>
-
-    </header>
-
     <main>
+
+        <button class="music">Play Battle</button>
 
         <div class="player">
             <img src="../assets/img/test2.gif" alt="pokemon" class="imgPoke-player">
             <img src="../assets/img/player-hp.png" alt="playerHP" class="playerHp">
             <img src="../assets/img/menu-player.png" alt="menuPlayer" class="menuPlayer">
-            
+
         </div>
 
         <div class="inimigo">
             <img src="../assets/img/test.gif" alt="pokemon" class="imgPoke-inimigo">
+            <img src="../assets/img/enemy-hp.png" alt="enemyHp" class="enemyHP">
         </div>
 
-        
+
 
         <img src="../assets/img/fundo.png" alt="fundo" class="fundo">
+
+        <div class="escolha">
+            <img src="#" alt="pokemon" class="imagem_pokemon">
+            <form class="formulario">
+                <input type="search" class="campo_busca" placeholder="Nome ou Número" required />
+            </form>
+        </div>
+
+        <audio loop id="music">
+            <source src="../assets/aud/BattleMusic.mp3" type="audio/mpeg">
+        </audio>
+
+        <a href="../index.html" class="btn-voltar"> ← Home</a>
+
+
     </main>
 
+
     <script src="../assets/js/pokeBattle.js"></script>
+
+
+
 </body>
+
 </html>
