@@ -1,0 +1,130 @@
+*{
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão*/
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total do elemento */
+}
+
+/* Estiliza o corpo da página */
+
+body {
+    text-align: center; /* Centraliza o texto horizontalmente*/
+    background: linear-gradient( to bottom, #6ab7f5, #fff); /* Aplica um gradiente de azula (cima) para branco (baixo)*/
+    min-height: 100vh; /* Garante que o corpo tenha no mínimo a altura da janela do navegador*/
+}
+
+main {
+    position: relative;
+    padding: 15px;
+    margin: 2%;
+}
+
+.fundo {
+    width: 50%;
+}
+
+.imgPoke-inimigo {
+    position: absolute;
+    top: 25%;
+    left: 62%;
+    transform: translate(-63%, 20%);
+    height: 8rem;
+}
+
+.imgPoke-player {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-63%, 20%);
+    height: 8rem;
+}
+
+.playerHp {
+    position: absolute;
+    top: 55%;
+    left: 61%;
+    transform: translate(-63%, 20%);
+    height: 8rem;
+}
+
+.enemyHP {
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    transform: translate(-63%, 20%);
+    height: 6rem;
+}
+
+.menuPlayer {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    transform: translate(-63%, 20%);
+    width: 30rem;
+}
+
+
+
+.formulario {
+    position: absolute; /* posiciona o formulário em relação ao contêiner pai */
+    width: 65% ; /* define a largura como 65% */
+    top: 65%; /* Define a posição superior como 65% */
+    left: 50%; /* Define a posição à esquerda como 13.5 */
+}
+
+.imagem_pokemon {
+    position: absolute; /* Posiciona a imagem em relação ao contêiner pai */
+    bottom: 50%; /* Move a imagem 55% da parte inferior do contêiner */
+    left: 78%;/* centraliza horizontalmente */
+    height: 40%; /* Define a altura de imagem como 18% da altura do contêiner */
+    background-color: red;
+}
+
+.music {
+    background: #ffca05;
+    border: none;
+    padding: 1rem 3rem;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow:  0 7px 0 #9c8d30;
+
+    position: absolute;
+    top: 25rem;
+    right: 5rem;
+    width: 20rem;
+}
+.music:hover{
+    transition: all 0.3s ease; /* ou 0.2s */
+    box-shadow: rgba(255, 202, 5, 0.25) 0px 54px 55px, rgba(255, 202, 5, 0.12) 0px -12px 30px, rgba(255, 202, 5, 0.12) 0px 4px 6px, rgba(255, 202, 5, 0.17) 0px 12px 13px, rgba(255, 202, 5, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: rgba(34, 118, 190, 0.75); /* fica mais vivo no hover */
+    color: white;
+}
+
+.btn-voltar {
+    background: #ffca05;
+    border: none;
+    padding: 1rem 3rem;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow:  0 7px 0 #9c8d30;
+
+    position: absolute;
+    top: 30rem;
+    right: 5rem;
+    width: 20em;
+}
+.btn-voltar:hover{
+    transition: all 0.3s ease; /* ou 0.2s */
+    box-shadow: rgba(255, 202, 5, 0.25) 0px 54px 55px, rgba(255, 202, 5, 0.12) 0px -12px 30px, rgba(255, 202, 5, 0.12) 0px 4px 6px, rgba(255, 202, 5, 0.17) 0px 12px 13px, rgba(255, 202, 5, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: rgba(34, 118, 190, 0.75); /* fica mais vivo no hover */
+    color: white;
+}

@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="shortcut icon" href="./assets/img/favicon-pokebola.png" type="image/x-icon">
+    <title>Pokémon</title>
 </head>
 <body>
+
     <main>
-        <!-- Imagem do pokemon exibido -->
-        <img src="#" alt="pokemon" class="imagem_pokemon">
 
-        <!-- Exibição dp número e nome do pokémon -->
-        <h1 class="dados_pokemon">
-            <span class="numero_pokemon"></span> -
-            <span class="nome_pokemon"></span>
-        </h1>
+        <img src="./assets/img/pokemon-logo.gif" alt="logo" class="logo">
 
-        <!-- Formulário de busca para procurar um pokémon por nome ou número -->
-         <form class="formulario">
-            <input type="search" class="campo_busca" placeholder="Nome ou Número" required/>
-         </form>
+        
 
-         <!-- Botões para navegar entre os Pokémons-->
-          <div class="botoes">
-            <button class="botao botao_anterior">Anterior &lt;</button>
-            <button class="botao botao_proximo">Próximo &gt;</button>
-          </div>
+        <button class="music">Play Music</button>
 
-          <!-- Imagem da Pokédex -->
-           <img src="assets/img/pokedex.png" alt="pokedex" class="pokedex">
+        <div class="buttons">
+
+        <a href="./pages/pokedex.html" class="btn-entrar">Pokedex</a>
+        
+        <a href="./pages/pokeBattle.html" class="btn-entrar">PokeBattle</a>
+        
+        </div>
+        
+
+        <audio loop  id="music">
+            <source src="./assets/aud/poke.mpeg" type="audio/mpeg">
+        </audio>
     </main>
-    <script src="./assets/script/index.js"></script>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon - Pokedex</title>
+    <link rel="stylesheet" href="../assets/css/pokedex.css">
+    <link rel="shortcut icon" href="./assets/img/favicon-pokebola.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <!-- Imagem do pokemon exibido -->
+        <img src="#" alt="pokemon" class="imagem_pokemon">
+
+        <!-- Exibição dp número e nome do pokémon -->
+        <h1 class="dados_pokemon">
+            <span class="numero_pokemon"></span> -
+            <span class="nome_pokemon"></span>
+        </h1>
+
+        <!-- Formulário de busca para procurar um pokémon por nome ou número -->
+         <form class="formulario">
+            <input type="search" class="campo_busca" placeholder="Nome ou Número" required/>
+         </form>
+
+         <!-- Botões para navegar entre os Pokémons-->
+          <div class="botoes">
+            <button class="botao botao_anterior">Anterior &lt;</button>
+            <button class="botao botao_proximo">Próximo &gt;</button>
+          </div>
+
+          <!-- Imagem da Pokédex -->
+           <img src="../assets/img/pokedex.png" alt="pokedex" class="pokedex">
+
+           <a href="../index.html" class="btn-voltar"> ← Home</a>
+    </main>
+    <script src="../assets/js/pokedex.js"></script>
+</body>
+</html>
